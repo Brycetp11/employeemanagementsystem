@@ -29,3 +29,8 @@ CREATE TABLE employee (
 SELECT * FROM department;
 SELECT * FROM role;
 SELECT * FROM employee;
+
+SELECT role.id, role.title, role.salary, employee.first_name, employee.last_name 
+FROM role 
+INNER JOIN employee 
+ON employee.id = role.id;

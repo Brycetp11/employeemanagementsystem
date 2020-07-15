@@ -179,7 +179,7 @@ function updateEmployee() {
                     ],
                     function (err, res) {
                         if (err) throw err;
-                        console.log("Role added!");
+                        console.log("Updated First Name!");
                         start();
                     }
                 )
@@ -206,7 +206,7 @@ function updateEmployee() {
                     ],
                     function (err, res) {
                         if (err) throw err;
-                        console.log("Role added!");
+                        console.log("Updated last name!");
                         start();
                     }
                 )
@@ -232,7 +232,7 @@ function updateEmployee() {
                     ],
                     function (err, res) {
                         if (err) throw err;
-                        console.log("Role added!");
+                        console.log("Updated role!");
                         start();
                     }
                 )
